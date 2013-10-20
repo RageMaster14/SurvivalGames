@@ -1,0 +1,18 @@
+name: SurvivalGamess
+description: A Private Version of the SurvivalGames
+authors: [Rage_Master14, SlideRoller]
+version: 0.0.1
+main: rageteam.survivalgames.main.Main
+softdepend: [WorldEdit]
+commands:
+   createarena:
+      description: Creates a new SG arena
+      permission: sg.createarena
+   deletearena:
+      description: Deletes a SG Arena
+      permission: sg.deletearena
+   setlobbyspawn:
+      description: Set's the Main Spawn
+      permission: sg.setlobbyspawn
+      
+        
